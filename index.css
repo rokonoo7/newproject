@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.nav-link {
+  color: white !important ;
+}
+.nav_home{
+  color: red !important;
+}
+.navbar-nav{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_body{
+  background: url(img2.jpg) center center fixed rgba(0, 0, 0, 0.582);
+  background-blend-mode: multiply;
+  height: 100vh;
+  width: 100vw;
+  margin-top: -9vh;
+  display: flex;
+  justify-content: center;
+
+}
+.bd_container{
+  margin-top: 36vh;
+  color: white;
+}
+.icon{
+  background-color: rgb(239, 69, 69);
+  width: 57px;
+  height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.service_container{
+  display: flex;
+  justify-content: center;
+}
+.row_service{
+  width: 80vw;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+.col_service{
+  border: solid 1px black;
+  border-radius: 5px;
+  padding-top: 17px;
+  box-shadow: 0px 0px 4px;
+  
+}
+.row_port_img{
+  display: flex;
+    justify-content: center;
+    
+}
+.col_port_img{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  box-shadow: 0px 0px 4px;
+}
+.team_container{
+  display: flex;
+    justify-content: center;
+}
+.team_tem{
+  background-color: rgba(54, 53, 53, 0.911);
+  height: 20rem;
+  width: 14rem;
+    border-radius: 5px;
+}
+.team_col{
+  display: flex;
+  justify-content: center;
+}
+
+.team_img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+.footer_container{
+  display: flex;
+    justify-content: center;
+
+}
+.foot_row{
+  background-color: rgba(54, 53, 53, 0.911);
+}
+.foot_col{
+  background-color:rgba(54, 53, 53, 0.911);
+}
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.756);
+  }
+  .btn{
+    color: white;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .navbar {
+    background-color:  rgba(0, 0, 0, 0.756);
+    
+  }
+  .btn{
+    color: white;
+  }
+}
